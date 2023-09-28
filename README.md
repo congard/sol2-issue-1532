@@ -38,8 +38,11 @@ cmake --build build --target sol2_issue_1532 -- -j 8
 | Windows 11 22H2     | MSVC 14.37.32822 `cl.exe` / `cl.exe`                       | ❌ Failed w/o workaround | ✅ Ok in both cases    |
 | Ubuntu 22.04.3 LTS* | `clang` / `clang++` 14.0.0-1ubuntu1.1, x86_64-pc-linux-gnu | ✅                       | ✅                     |
 | Ubuntu 22.04.3 LTS* | `gcc` / `g++` 11.4.0-1ubuntu1~22.04                        | ✅                       | ✅                     |
+| Fedora 38**         | `clang` / `clang++` 16.0.6 (Fedora 16.0.6-3.fc38)          | ✅                       | ✅                     |
+| Fedora 38**         | `gcc` / `g++` 13.2.1 20230728 (Red Hat 13.2.1-1)           | ✅                       | ✅                     |
 
 _\* Linux 5.15.90.1-microsoft-standard-WSL2_
+_\*\* Linux 6.4.15-200.fc38.x86_64_
 
 ### Windows shared library error message
 
