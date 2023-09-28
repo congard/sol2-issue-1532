@@ -42,7 +42,7 @@ cmake --build build --target sol2_issue_1532 -- -j 8
 | Fedora 38**         | `gcc` / `g++` 13.2.1 20230728 (Red Hat 13.2.1-1)           | ✅                       | ✅                     |
 
 _\* Linux 5.15.90.1-microsoft-standard-WSL2_
-_\*\* Linux 6.4.15-200.fc38.x86_64_
+<br>_\*\* Linux 6.4.15-200.fc38.x86_64_
 
 ### Windows shared library error message
 
