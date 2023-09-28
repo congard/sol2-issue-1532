@@ -9,7 +9,7 @@ This repository has [sol2](https://github.com/ThePhD/sol2) and [lua](https://git
 as dependencies. Clone it with
 
 ```bash
-git clone --recurse-submodules --remote https://github.com/congard/sol2-issue-1532.git
+git clone --recurse-submodules https://github.com/congard/sol2-issue-1532.git
 ```
 
 Or, if you have already cloned it, use
